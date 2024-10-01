@@ -3,7 +3,7 @@ provider "google" {
   region = 'us-central1'
 }
 
-resource "google_compute_instance" "centos_vm {
+resource "google_compute_instance" "centos_vm" {
   name = 'sekhar_instance'
   machine_type = 'e2-medium'
   zone = 'us-central1-a'
