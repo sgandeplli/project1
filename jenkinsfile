@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('connecting git') {
             steps {
-                git url : "https://github.com/sgandeplli/naruto.git" , branch : "main"
+                git url : "https://github.com/sgandeplli/project1.git" , branch : "main"
             }
         }
         
